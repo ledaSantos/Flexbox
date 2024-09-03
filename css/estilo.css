@@ -24,6 +24,9 @@
 
 
 .container {
+
+    width: 900px
+    height: 400px
     margin: 0px auto;
     display: flex;
     flex-direction: column;
@@ -62,4 +65,5 @@ ul {
     gap: lepx;
     margin: 30px 10px;
 }
+
 
