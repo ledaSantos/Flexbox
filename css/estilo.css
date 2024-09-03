@@ -1,0 +1,26 @@
+.container {
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content {
+    flex: 2;
+    display: flex;
+}
+
+.footer {
+    flex: 1;
+
+}
+
+.menu {
+    flex:1;
+
+}
+
+.content-left {
+    flex: 2;
+    display: flex;
+}
