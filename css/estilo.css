@@ -22,7 +22,7 @@
 .container {
     width: 900px;
     height: 400px;
-    margin: 0 auto;
+    margin: 0px auto;
     display: flex;
     flex-direction: column;
 }
@@ -54,6 +54,8 @@
 }
 
 
+
+
 * {
     box-sizing: border-box;
 }
@@ -73,6 +75,10 @@ nav.top-menu {
     padding: 10px;
 }
 
+nav.top-menu li a:hover {
+    background-color: #555; 
+}
+
 nav.top-menu ul {
     display: flex;
     gap: 10px;
@@ -85,6 +91,8 @@ nav.top-menu li {
 nav.top-menu a {
     color: white;
     text-decoration: none;
+    background-color: 444;
+    border-radius: 3px;
     font-weight: bold;
 }
 
