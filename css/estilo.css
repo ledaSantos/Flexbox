@@ -69,8 +69,7 @@
 /* Reseta o estilo padrão */
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+
 }
 
 /* Menu superior */
@@ -79,7 +78,6 @@
     background-color: fff;
     justify-content: center;
     list-style: none;
-    padding: 0;
     margin-bottom: 30px;
 }
 
@@ -88,7 +86,7 @@
 }
 
 .top-menu li a {
-    color: white;
+    color: fff;
     text-decoration: none;
     background-color: #444;
     padding: 15px 25px;
@@ -98,5 +96,4 @@
 
 .top-menu li a:hover {
     background-color: #555;
-    text-decoration: underline;
 }
