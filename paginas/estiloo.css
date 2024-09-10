@@ -1,8 +1,4 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+
 
 body {
     font-family: Arial, sans-serif;
@@ -15,29 +11,6 @@ body {
     height: 100vh;
 }
 
-.top-menu ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    background-color: #333;
-    padding: 10px;
-}
-
-.top-menu li {
-    margin: 0 5px;
-}
-
-.top-menu a {
-    text-decoration: none;
-    color: white;
-    background-color: #444;
-    padding: 10px 20px;
-    border-radius: 5px;
-}
-
-.top-menu a:hover {
-    background-color: #555;
-}
 
 .header {
     background-color: #444;
@@ -105,3 +78,36 @@ body {
     font-size: 24px;
     font-weight: bold;
 }
+
+
+* {
+    box-sizing: border-box;
+
+}
+
+/* Menu superior */
+.top-menu {
+    display: flex;
+    background-color: fff;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.top-menu li {
+    margin: 0 5px;
+}
+
+.top-menu li a {
+    color: fff;
+    text-decoration: none;
+    background-color: #444;
+    padding: 15px 25px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.top-menu li a:hover {
+    background-color: #555;
+}
+
