@@ -87,17 +87,7 @@ body {
 }
 
 /* Posicionando os links na frente um do outro */
-.top-menu li:nth-child(1) a {
-    position: absolute;
-    left: 0px;
-    z-index: 5;
-}
 
-.top-menu li:nth-child(2) a {
-    position: absolute;
-    left: 10px;
-    z-index: 4;
-}
 
 .top-menu li:nth-child(3) a {
     position: absolute;
