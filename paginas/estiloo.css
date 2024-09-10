@@ -78,6 +78,8 @@ body {
     justify-content: center;
     list-style: none;
     margin-bottom: 30px;
+    z-index: 2
+
 }
 
 .top-menu li {
