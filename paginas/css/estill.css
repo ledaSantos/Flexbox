@@ -1,59 +1,66 @@
-body {
-    margin: auto;
-    padding: auto;
+body{
+    margin:auto;
+    padding:auto;
     text-align: center;
     max-width: 700px;
     font-family: 'Roboto', sans-serif;
 }
 
-/* Ajusta o título, alinhamento, espaço entre as letras e tipo de fonte */
-h1 {
+
+/* Ajusta o título, alinhamento, espaço entre as letras e tipo de font*/
+h1{
     text-align: center;
     letter-spacing: 0.3em;
     font-weight: normal;
     text-transform: uppercase;
 }
 
-/* Define o tamanho e posicionamento do grid, espaçamento das colunas, espessura e borda */
-.grid-container {
-    display: grid;
-    grid-column-gap: 1px; /* Define o espaço entre as colunas */
-    width: 480px; /* Ajusta para que o tabuleiro seja menor */
-    height: 489px; /* Define o tamanho do container menor */
-    grid-template-columns: repeat(8, auto); /* Divide o grid-container em 8 colunas */
-    border: 4px solid #cccccc;
-    margin: 0 auto; /* Centraliza o tabuleiro na tela */
+
+
+/* Define o tamanho e posicionamento do grid, espaçamento das colunas, expessura e bor da borda */
+.grid-container{
+    display:grid;
+    grid-column-gap:1px; /*Define o espaço entre as colunas*/
+    width: 560px;
+    height: 560px;/*Define o tamanho do container*/
+    grid-template-columns: auto auto auto auto auto auto auto auto ; /*Divide o grid-container em 8 colunas*/
+    border: 8px solid #cccccc;
+    margin-left: 80px;
 }
 
+
 /* Pinta os blocos */
-.line-1 div:nth-child(2n+1) {
+.line-1 div:nth-child(2n+1){
     background: rgb(16, 15, 70);
 }
 
+
 /* Pinta os blocos */
-.line-2 div:nth-child(2n) {
+.line-2 div:nth-child(2n){
     background: rgb(16, 15, 70);
 }
+
 
 /* Define o tamanho dos blocos */
-.grid-container div {
-    height: 35px; /* Diminui o tamanho dos blocos para manter o tabuleiro pequeno */
-    width: 35px; /* Diminui a largura dos blocos */
+div {
+    height: 70px;
     position: relative;
 }
 
-.content-bottom {
+.content-bottom { 
     display: flex;
     flex: 1;
 }
 
 * {
     box-sizing: border-box;
+
 }
 
 /* Menu superior */
 .top-menu {
     display: flex;
+    background-color: fff;
     justify-content: center;
     list-style: none;
     margin-bottom: 30px;
@@ -64,7 +71,7 @@ h1 {
 }
 
 .top-menu li a {
-    color: #fff; /* Corrige a cor do texto para branco */
+    color: fff;
     text-decoration: none;
     background-color: #444;
     padding: 15px 25px;
@@ -75,3 +82,8 @@ h1 {
 .top-menu li a:hover {
     background-color: #555;
 }
+
+
+
+
+
