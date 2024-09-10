@@ -7,24 +7,24 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
-    padding-top: 50px; /* Para garantir que o conteúdo abaixo não fique atrás do top-menu */
+    padding-top: 70px; 
     display: flex;
-    justify-content: center; /* Centraliza o contêiner principal horizontalmente */
-    align-items: center; /* Centraliza verticalmente, mas depende do conteúdo */
-    min-height: 100vh; /* Garante que o body ocupe pelo menos 100% da altura da janela */
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    width: 60%; /* Define uma largura menor para o contêiner principal */
-    max-width: 900px; /* Limita a largura máxima do contêiner */
-    min-width: 600px; /* Limita a largura mínima do contêiner */
-    background-color: #fff; /* Adiciona fundo branco ao contêiner principal */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona sombra para destaque */
-    border-radius: 8px; /* Adiciona cantos arredondados */
-    padding: 20px; /* Espaçamento interno */
-    margin: 20px auto; /* Garante que ele fique no centro */
+    width: 60%;
+    max-width: 900px;
+    min-width: 600px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
 }
 
 .header {
@@ -34,7 +34,7 @@ body {
     padding: 10px;
     font-size: 20px;
     font-weight: bold;
-    border-radius: 8px 8px 0 0; /* Arredondando apenas os cantos superiores */
+    border-radius: 8px 8px 0 0;
 }
 
 .main {
@@ -76,7 +76,7 @@ body {
     padding: 10px;
     font-size: 18px;
     font-weight: bold;
-    border-radius: 0 0 8px 8px; /* Arredondando apenas os cantos inferiores */
+    border-radius: 0 0 8px 8px;
 }
 
 .content-bottom {
@@ -85,27 +85,28 @@ body {
     padding: 10px;
 }
 
-/* Menu superior fixo */
 .top-menu {
     display: flex;
     justify-content: center;
-    background-color: #333;
     padding: 5px;
-    position: fixed; /* Torna o menu fixo no topo */
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1000; /* Garante que o menu fique acima do conteúdo */
+    z-index: 1000;
+    background-color: transparent; 
 }
 
+/* Botões maiores no menu */
 .top-menu a {
     text-decoration: none;
     color: white;
     background-color: #444;
-    padding: 5px 10px;
+    padding: 15px 30px; 
     border-radius: 5px;
-    margin: 0 5px;
-    font-size: 14px;
+    margin: 0 10px;
+    font-size: 16px; 
+    font-weight: bold;
 }
 
 .top-menu a:hover {
