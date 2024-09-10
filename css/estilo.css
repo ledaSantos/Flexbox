@@ -18,7 +18,6 @@
     background-color: #bbb;
 }
 
-/* Container principal */
 .container {
     width: 900px;
     height: 400px;
@@ -27,7 +26,6 @@
     flex-direction: column;
 }
 
-/* Área de conteúdo */
 .content {
     flex: 2;
     display: flex;
