@@ -24,7 +24,7 @@ h1{
     width: 560px;
     height: 560px;/*Define o tamanho do container*/
     grid-template-columns: auto auto auto auto auto auto auto auto ; /*Divide o grid-container em 8 colunas*/
-    border: 10px solid #cccccc;
+    border: 15px solid #cccccc;
     margin-left: 80px;
 }
 
