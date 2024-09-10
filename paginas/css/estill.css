@@ -31,13 +31,13 @@ h1{
 
 /* Pinta os blocos */
 .line-1 div:nth-child(2n+1){
-    background: black;
+    background: rgb(16, 15, 70);
 }
 
 
 /* Pinta os blocos */
 .line-2 div:nth-child(2n){
-    background: black;
+    background: rgb(16, 15, 70);
 }
 
 
@@ -46,6 +46,43 @@ div {
     height: 70px;
     position: relative;
 }
+
+.content-bottom { 
+    display: flex;
+    flex: 1;
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+/* Menu superior */
+.top-menu {
+    display: flex;
+    background-color: fff;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.top-menu li {
+    margin: 0 5px;
+}
+
+.top-menu li a {
+    color: fff;
+    text-decoration: none;
+    background-color: #444;
+    padding: 15px 25px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.top-menu li a:hover {
+    background-color: #555;
+}
+
 
 
 
