@@ -27,26 +27,7 @@ body {
     background-color: #e0e0e0;
 }
 
-.menu {
-    flex-basis: 20%;
-    background-color: #bbb;
-    padding: 20px;
-}
 
-.menu ul {
-    list-style: none;
-}
-
-.menu a {
-    text-decoration: none;
-    background-color: #ccc;
-    color: black;
-    display: block;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 3px;
-    text-align: center;
-}
 
 .content {
     flex-grow: 1;
@@ -79,6 +60,11 @@ body {
     font-weight: bold;
 }
 
+.content-bottom { 
+    display: flex;
+    flex: 1;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -104,4 +90,24 @@ body {
 
 .top-menu a:hover {
     background-color: #555;
+}
+.menu {
+    flex-basis: 20%;
+    background-color: #bbb;
+    padding: 20px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    background-color: #ccc;
+    color: black;
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    text-align: center;
 }
