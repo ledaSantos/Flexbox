@@ -2,7 +2,7 @@ body{
     margin:auto;
     padding:auto;
     text-align: center;
-    max-width: 500px;
+    max-width: 700px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -21,11 +21,11 @@ h1{
 .grid-container{
     display:grid;
     grid-column-gap:1px; /*Define o espaço entre as colunas*/
-    width: 460px;
-    height: 460px;/*Define o tamanho do container*/
+    width: 560px;
+    height: 560px;/*Define o tamanho do container*/
     grid-template-columns: auto auto auto auto auto auto auto auto ; /*Divide o grid-container em 8 colunas*/
     border: 10px solid #cccccc;
-    margin-left: 70px;
+    margin-left: 80px;
 }
 
 
