@@ -15,6 +15,10 @@ h1{
     text-transform: uppercase;
 }
 
+.content-bottom { 
+    display: flex;
+    flex: 1;
+}
 
 /* Define o tamanho e posicionamento do grid, espaçamento das colunas, expessura e bor da borda */
 .grid-container{
@@ -30,13 +34,13 @@ h1{
 
 /* Pinta os blocos */
 .line-1 div:nth-child(2n+1){
-    background: black;
+    background: rgb(11, 17, 44);
 }
 
 
 /* Pinta os blocos */
 .line-2 div:nth-child(2n){
-    background: black;
+    background:  rgb(11, 17, 44);
 }
 
 
