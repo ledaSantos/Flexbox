@@ -80,6 +80,11 @@ body {
     font-weight: bold;
 }
 
+.content-bottom { 
+    display: flex;
+    flex: 1;
+}
+
 
 * {
     box-sizing: border-box;
