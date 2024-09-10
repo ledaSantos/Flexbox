@@ -18,8 +18,8 @@ h1 {
 .grid-container {
     display: grid;
     grid-column-gap: 1px; /* Define o espaço entre as colunas */
-    width: 280px; /* Ajusta para que o tabuleiro seja menor */
-    height: 289px; /* Define o tamanho do container menor */
+    width: 480px; /* Ajusta para que o tabuleiro seja menor */
+    height: 489px; /* Define o tamanho do container menor */
     grid-template-columns: repeat(8, auto); /* Divide o grid-container em 8 colunas */
     border: 4px solid #cccccc;
     margin: 0 auto; /* Centraliza o tabuleiro na tela */
