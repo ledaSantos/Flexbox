@@ -15,11 +15,6 @@ h1{
     text-transform: uppercase;
 }
 
-.content-bottom { 
-    display: flex;
-    flex: 1;
-}
-
 /* Define o tamanho e posicionamento do grid, espaçamento das colunas, expessura e bor da borda */
 .grid-container{
     display:grid;
@@ -48,6 +43,10 @@ h1{
 div {
     height: 70px;
     position: relative;
+}
+.content-bottom { 
+    display: flex;
+    flex: 1;
 }
 
 
