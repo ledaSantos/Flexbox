@@ -37,21 +37,22 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    gap: 10px;
+    gap: 0; /* Remove o espaçamento entre as caixas */
     margin: 0 auto;
-    width: 80%;
     padding: 20px 0;
+    position: relative; /* Necessário para centralizar verticalmente */
+    height: 60vh; /* Ajusta a altura do contêiner */
 }
 
 /* Estilização das caixas */
 .box {
     width: 10%;
-    background-color: #aaa;
+    background-color: #888; /* Cor das caixas */
     display: flex;
     justify-content: center;
     align-items: flex-end;
     font-size: 14px;
     color: #333;
     text-align: center;
-    background-color: #888; /* Mantenha o fundo cinza das caixas */
+    margin: 0;
 }
