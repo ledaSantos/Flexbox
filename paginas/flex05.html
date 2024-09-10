@@ -1,27 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-    <title>Meus Contêineres</title>
-    <link rel="stylesheet" href="css/estiloo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Exemplo</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <!-- Menu superior -->
-    <ul class="top-menu">
-        <li><a href="/paginas/flex01.html">01</a></li>
-        <li><a href="/paginas/flex02.html">02</a></li>
-        <li><a href="/paginas/flex03.html">03</a></li>
-        <li><a href="/paginas/flex04.html">04</a></li>
-        <li><a href="/paginas/flex05.html">05</a></li>
-    </ul>
-
-    <!-- Contêineres principais -->
     <div class="container">
-        <div class="box" style="height: 20vh;">20vh</div>
-        <div class="box" style="height: 30vh;">30vh</div>
-        <div class="box" style="height: 15vh;">15vh</div>
-        <div class="box" style="height: 35vh;">35vh</div>
-        <div class="box" style="height: 50vh;">50vh</div>
-        <div class="box" style="height: 20vh;">20vh</div>
+        <nav class="top-menu">
+            <ul>
+                <li><a href="#">01</a></li>
+                <li><a href="#">02</a></li>
+                <li><a href="#">03</a></li>
+                <li><a href="#">04</a></li>
+                <li><a href="#">05</a></li>
+            </ul>
+        </nav>
+
+        <header class="header">Header</header>
+
+        <div class="main">
+            <aside class="menu">
+                <ul>
+                    <li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 2</a></li>
+                    <li><a href="#">Item 3</a></li>
+                </ul>
+            </aside>
+
+            <section class="content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem est provident, corrupti sint atque id cumque suscipit saepe odit dolores dignissimos fugit totam nobis similique officiis dicta cupiditate illo deleniti.</p>
+            </section>
+
+            <div class="ads">
+                <div class="ad">Ad</div>
+                <div class="ad">Ad</div>
+            </div>
+        </div>
+
+        <footer class="footer">Footer</footer>
     </div>
 </body>
 </html>
