@@ -1,85 +1,136 @@
-body{
-    margin:auto;
-    padding:auto;
-    text-align: center;
-    max-width: 700px;
-    font-family: 'Roboto', sans-serif;
-}
-
-
-/* Ajusta o título, alinhamento, espaço entre as letras e tipo de font*/
-h1{
-    text-align: center;
-    letter-spacing: 0.3em;
-    font-weight: normal;
-    text-transform: uppercase;
-}
-
-
-
-/* Define o tamanho e posicionamento do grid, espaçamento das colunas, expessura e bor da borda */
-.grid-container{
-    display:grid;
-    grid-column-gap:1px; /*Define o espaço entre as colunas*/
-    width: 560px;
-    height: 578px;/*Define o tamanho do container*/
-    grid-template-columns: auto auto auto auto auto auto auto auto ; /*Divide o grid-container em 8 colunas*/
-    border: 8px solid #cccccc;
-    margin-left: 80px;
-}
-
-
-/* Pinta os blocos */
-.line-1 div:nth-child(2n+1){
-    background: rgb(16, 15, 70);
-}
-
-
-/* Pinta os blocos */
-.line-2 div:nth-child(2n){
-    background: rgb(16, 15, 70);
-}
-
-
-/* Define o tamanho dos blocos */
-div {
-    height: 70px;
-    position: relative;
-}
-
-.content-bottom { 
-    display: flex;
-    flex: 1;
-}
-
 * {
     box-sizing: border-box;
-
+    margin: 0;
+    padding: 0;
 }
 
-/* Menu superior */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding-top: 70px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    max-width: 900px;
+    min-width: 600px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.header {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px 8px 0 0;
+}
+
+.main {
+    display: flex;
+    flex-grow: 1;
+    background-color: #e0e0e0;
+    padding: 10px;
+}
+
+.content {
+    flex-grow: 1;
+    background-color: #ddd;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.ads {
+    flex-basis: 20%;
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.ad {
+    background-color: #bbb;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 0 0 8px 8px;
+}
+
+.content-bottom {
+    display: flex;
+    flex: 1;
+    padding: 10px;
+}
+
 .top-menu {
     display: flex;
-    background-color: fff;
     justify-content: center;
-    list-style: none;
-    margin-bottom: 30px;
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: transparent; 
 }
 
-.top-menu li {
-    margin: 0 5px;
-}
-
-.top-menu li a {
-    color: fff;
+/* Botões maiores no menu */
+.top-menu a {
     text-decoration: none;
+    color: white;
     background-color: #444;
-    padding: 15px 25px;
-    border-radius: 3px;
+    padding: 15px 30px; 
+    border-radius: 5px;
+    margin: 0 10px;
+    font-size: 16px; 
     font-weight: bold;
 }
 
-.top-menu li a:hover {
+.top-menu a:hover {
     background-color: #555;
 }
 
+.menu {
+    flex-basis: 20%;
+    background-color: #bbb;
+    padding: 10px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    background-color: #ccc;
+    color: black;
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 14px;
+}
