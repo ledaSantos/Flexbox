@@ -1,136 +1,82 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    padding-top: 70px; 
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    min-height: 100vh; 
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    max-width: 900px;
-    min-width: 600px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    padding: 20px;
-    margin: 20px auto;
-}
-
-.header {
-    background-color: #444;
-    color: white;
+body{
+    margin:auto;
+    padding:auto;
     text-align: center;
-    padding: 10px;
-    font-size: 20px;
-    font-weight: bold;
-    border-radius: 8px 8px 0 0;
+    max-width: 700px;
+    font-family: 'Roboto', sans-serif;
 }
 
-.main {
-    display: flex;
-    flex-grow: 1;
-    background-color: #e0e0e0;
-    padding: 10px;
-}
 
-.content {
-    flex-grow: 1;
-    background-color: #ddd;
-    padding: 10px;
-    margin-right: 10px;
-    font-size: 14px;
-}
-
-.ads {
-    flex-basis: 20%;
-    background-color: #ccc;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 10px;
-}
-
-.ad {
-    background-color: #bbb;
-    padding: 10px;
+h1{
     text-align: center;
-    font-weight: bold;
-    font-size: 14px;
+    letter-spacing: 0.3em;
+    font-weight: normal;
+    text-transform: uppercase;
 }
 
-.footer {
-    background-color: #444;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 0 0 8px 8px;
+
+.grid-container{
+    display:grid;
+    grid-column-gap: 1px; 
+    width: 560px;
+    height: 578px;
+    grid-template-columns: auto auto auto auto auto auto auto auto ; 
+    border: 8px solid #cccccc;
+    margin-left: 80px;
 }
 
-.content-bottom {
+
+/* Pinta os blocos */
+.line-1 div:nth-child(2n+1){
+    background: rgb(16, 15, 70);
+}
+
+
+/* Pinta os blocos */
+.line-2 div:nth-child(2n){
+    background: rgb(16, 15, 70);
+}
+
+
+
+div {
+    height: 70px;
+    position: relative;
+}
+
+.content-bottom { 
     display: flex;
     flex: 1;
-    padding: 10px;
 }
 
+* {
+    box-sizing: border-box;
+
+}
+
+/* Menu superior */
 .top-menu {
     display: flex;
+    background-color: fff;
     justify-content: center;
-    padding: 5px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    background-color: transparent; 
+    list-style: none;
+    margin-bottom: 30px;
 }
 
-/* Botões maiores no menu */
-.top-menu a {
+.top-menu li {
+    margin: 0 5px;
+}
+
+.top-menu li a {
+    color: fff;
     text-decoration: none;
-    color: white;
     background-color: #444;
-    padding: 15px 30px; 
-    border-radius: 5px;
-    margin: 0 10px;
-    font-size: 16px; 
+    padding: 15px 25px;
+    border-radius: 3px;
     font-weight: bold;
 }
 
-.top-menu a:hover {
+.top-menu li a:hover {
     background-color: #555;
 }
 
-.menu {
-    flex-basis: 20%;
-    background-color: #bbb;
-    padding: 10px;
-}
-
-.menu ul {
-    list-style: none;
-}
-
-.menu a {
-    text-decoration: none;
-    background-color: #ccc;
-    color: black;
-    display: block;
-    padding: 8px;
-    margin-bottom: 8px;
-    border-radius: 3px;
-    text-align: center;
-    font-size: 14px;
-}

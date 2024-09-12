@@ -69,7 +69,7 @@
 
 
 
-/* Reseta o estilo padrão */
+
 * {
     box-sizing: border-box;
 
@@ -100,7 +100,4 @@
 .top-menu li a:hover {
     background-color: #555;
 }
-
-
-
 
